@@ -3,15 +3,17 @@ library(ggplot2)
 library(dplyr)
 library(DT)
 
-# Load the dataset
-drug_spending <- read.csv("data/data.csv")
+# Load the dataset and remove the FLAG_CODES column
+drug_spending <- read.csv("data/data.csv") %>%
+  select(-FLAG_CODES)  # Remove the FLAG_CODES column
 
+# Ensure TIME is numeric and clean the data
 drug_spending$TIME <- as.numeric(drug_spending$TIME)
 drug_spending <- drug_spending[!is.na(drug_spending$TIME), ]
 
 # UI
 ui <- fluidPage(
-  #Feature 1:Background image to make it visually appealing.
+  # Feature 1: Background image to make it visually appealing.
   includeCSS("www/background.css"),
   
   titlePanel("Pharmaceutical Drug Spending by Countries"),

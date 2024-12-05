@@ -62,7 +62,7 @@ The dataset can be accessed here: [World Happiness Report](https://github.com/Ph
 
 ---
 
-## **Installation for Both Projects**
+## **Installation**
 To run these apps locally:
 1. Clone the respective repositories to your local machine.
 2. Install the required R packages:

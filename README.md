@@ -37,7 +37,7 @@ The dataset used in this app is from the **World Happiness Report**, an annual p
 - **Region**: The region to which the country belongs.
 
 ### **Source Acknowledgment**
-The dataset can be accessed here: [World Happiness Report]([https://worldhappiness.report/](https://github.com/PhilippeCodes/World-Happiness-Report-Data-Analysis/blob/master/World%20Happiness%20Report.csv)).
+The dataset can be accessed here: [World Happiness Report]([[https://worldhappiness.report/](https://github.com/PhilippeCodes/World-Happiness-Report-Data-Analysis/blob/master/World%20Happiness%20Report.csv)].
 
 ---
 

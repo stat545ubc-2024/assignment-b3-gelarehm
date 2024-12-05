@@ -9,7 +9,9 @@ library(plotly)
 library(shinyWidgets)
 
 # Load data
-happiness_data <- read.csv("/Users/gelareh/Downloads/World Happiness Report.csv")
+
+happiness_data <- read.csv("data/World Happiness Report.csv")
+#happiness_data <- read.csv("/Users/gelareh/Downloads/World Happiness Report.csv")
 
 # UI
 ui <- fluidPage(

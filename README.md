@@ -73,6 +73,7 @@ To run these apps locally:
    ```R
    shiny::runApp()
    ```
+---
 
 # **Pharmaceutical Drug Spending by Countries** (Assignment B3)
 

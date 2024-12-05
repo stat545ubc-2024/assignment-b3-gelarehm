@@ -1,0 +1,74 @@
+
+body {
+    background-image: url("happy.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+}
+
+/* Style for Shiny input panels */
+.shiny-input-panel {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.title-panel {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better contrast */
+}
+
+/* CSS to style the data table output */
+.dataTables_wrapper {
+    background-color: white !important; 
+    border-radius: 10px;               
+    padding: 15px;                     
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Style for the download button */
+.shiny-download-link {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.shiny-download-link:hover {
+    background-color: #0056b3; 
+}
+
+/* Box plot hover tooltips */
+.plotly-boxplot .hoverlayer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/
+p, h4, h5, h6, ul, li {
+    color: #ffffff; 
+    font-weight: 400;
+}
+
+
+.plotly .xtick text, .plotly .ytick text {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+
+input, select, .picker-input {
+    font-size: 14px;
+}

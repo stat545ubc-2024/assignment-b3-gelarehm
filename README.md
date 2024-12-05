@@ -17,7 +17,7 @@ This Shiny app explores global happiness trends using data from the World Happin
 
 ## **Link to App**
 Access the running instance of the app here:  
-[**World Happiness Report Analysis**](https://gelarehmodara.shinyapps.io/assignment-b4-happiness/)
+[**World Happiness Report Analysis**](https://gelarehmodara.shinyapps.io/assignmentb4/)
 
 ---
 
